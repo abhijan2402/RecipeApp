@@ -1,5 +1,5 @@
-.card-container{
-    width:300px;
+.card-container {
+    width: 300px;
     padding: 20px;
     /* height: 350px; */
     background-color: rgb(247, 247, 247);
@@ -11,37 +11,45 @@
     align-items: center;
     margin: 20px;
 }
-.image-contanier{
-    width:100%;
+
+.image-contanier {
+    width: 100%;
     border-radius: 10px;
-    height:200px;
+    height: 200px;
     box-shadow: 5px 5px 20px #646060;
 }
-.recipe-name{
+
+.recipe-name {
     width: 100%;
     padding-left: 10px;
     font-weight: bold;
     font-size: 25px;
-    color:#2c2c2c;
+    color: #2c2c2c;
     font-family: monospace;
+    text-align: center;
 }
-.recipe-desc{
-    font-size: 10px;
-    color:#000000;
+
+.recipe-desc {
+    font-size: 15px;
+    color: #000000;
     padding-left: 10px;
 }
-.price-button-container{
+
+.price-button-container {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 25px;
 }
-.custom-button{
-    width: 80px;
+
+.custom-button {
+    width: 100%;
     height: 30px;
     border-radius: 5px;
 }
-.price-tag{
+
+.price-tag {
     font-weight: bold;
     color: rgb(38, 38, 38);
 }
